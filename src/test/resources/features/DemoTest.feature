@@ -26,7 +26,7 @@ Feature: Demo test
       | login        | password             | status        |
       | tomsmith     | SuperSecretPassword! | successful    |
       | tomsmith     | wrongpassword        | unsuccessful  |
-      | unknown      | anypass              | successful    |
+      | unknown      | anypassword          | successful    |
 
   @ui
   @allure.label.epic:Login
