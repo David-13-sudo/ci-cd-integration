@@ -25,7 +25,7 @@ Feature: Demo test
     Examples:
       | login        | password             | status        |
       | tomsmith     | SuperSecretPassword! | successful    |
-      | tomsmith     | wrongpass            | unsuccessful  |
+      | tomsmith     | wrongpassword        | unsuccessful  |
       | unknown      | anypass              | successful    |
 
   @ui
